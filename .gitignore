@@ -24,6 +24,8 @@ override.tf.json
 # Lock files (optional; may depend on your team's workflow)
 **/*.lock.hcl
 
+**/*.tfplan
+
 # IDE or editor-specific files
 .vscode/
 .idea/
