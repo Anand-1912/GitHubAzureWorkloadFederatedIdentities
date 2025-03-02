@@ -16,7 +16,7 @@ jobs:
           scan-type: config
           hide-progress: true
           output: trivy.txt
-          tf-vars: ./environments/dev.tfvars
+          tf-vars: .\environments\dev.tfvars
 
       - name: Publish Trivy Output to Summary
         run: |
