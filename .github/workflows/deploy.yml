@@ -23,6 +23,8 @@ jobs:
 
       - name: List files in working directory
         run: ls
+      - name: Cat trivy.txt
+        run: cat trivy.txt
 
       - name: Publish Trivy Output to Summary
         run: |
