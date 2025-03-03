@@ -5,6 +5,13 @@ terraform {
       version = "4.21.1"
     }
   }
+
+  cloud {
+    organization = "anandorg1912" 
+    workspaces { 
+      name = "fed-id-test-dev" 
+    } 
+  }
 }
 
 provider "azurerm" {
